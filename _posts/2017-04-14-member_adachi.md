@@ -5,7 +5,7 @@ categories: member
 title: "安達 廉"
 name: "安達　廉"
 name_en: "Adachi Ren"
-tags: fmi01 fi05
+tags: fmi17 fi13
 face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
 
 main_skills: sensors  
