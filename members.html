@@ -21,12 +21,26 @@ data:
 
 <h1>Members</h1>
 {% for grade in page.data %}
-<section>
+<section class="members">
     <h2>{{ grade.name }}</h2>
     <ul>
-        {% for post in site.tags[grade.year] %}
+        {% for member in site.tags[grade.year] %}
         <li>
-            <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+            <div class="member-card">
+                <a href="{{site.baseurl}}{{ member.url }}">
+                    <img src="{{member.face_url}}" alt="{{ member.name }}" />
+                    <h3>{{ member.name }}</h3>
+                    <p class="say">{{member.say}}</p>
+                    <ul class="links">
+                        {% if member.homepage_url %}
+                        <li><a href="{{member.homepage_url}}">Web</a></li>
+                        {% endif %}
+                        {% if member.homepage_url %}
+                        <li><a href="{{member.homepage_url}}">GitHub</a></li>
+                        {% endif %}
+                    </ul>
+                </a>
+            </div>
         </li>
         {% endfor %}
     </ul>
