@@ -1,10 +1,10 @@
 body {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 20px;
     font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
-    color: #564b47;
-    padding-left: 50px;
-    padding-right: 20%;
-    background-image: url(/images/bg01small.jpg);
+    color:#564b47;
+    padding: 50px;
+    background: url(/images/bg01small.jpg) repeat-y;
 }
 
 body > header h1 > a {
@@ -18,7 +18,33 @@ body > header h4 {
 
 h1, h2, h3, h4 {
     width: 100%;
-    min-width: 840px;
+    padding: 5px;
+}
+
+h1 {
+    line-height: 35px;
+    font-weight: bold;
+    color: rgb(240, 240, 240);
+    background-color: rgb(83, 83, 83);
+}
+
+h2 {
+    line-height: 30px;
+    border-bottom: 2px solid rgb(83, 83, 83);
+    background-color: transparent;
+    font-size: 25px;
+}
+
+h3 {
+    line-height: 30px;
+    font-size: 25px;
+    border-left: 18px solid rgb(83, 83, 83);
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 hr {
@@ -28,17 +54,19 @@ hr {
     min-width: 840px;
 }
 
+ul {
+    padding-left: 30px;
+}
+
 pre {
-    margin-left: 30px;
     padding: 5px;
-    width: 80%;
 }
 
 code {
     background-color: #F5F5F5;
     padding: 9.5px;
     display: block;
-    margin: 0 0 10px;
+    margin: 0;
     font-size: 13px;
     line-height: 20px;
     word-break: break-all;
@@ -84,11 +112,6 @@ a:link {
 a:hover {
     color: #696969;
     text-decoration: underline;
-}
-
-nav li {
-    margin-left: -25px;
-    list-style: none;
 }
 
 footer {
@@ -149,6 +172,7 @@ section address {
     margin-left: 80%;
 }
 
+<<<<<<< HEAD
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -163,4 +187,8 @@ nav {
 
 nav>* {
     padding-left: 10px;
+=======
+div {
+    display: block;
+>>>>>>> Update top
 }
