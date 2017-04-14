@@ -30,3 +30,28 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# navigation
+navigations:
+  -
+    href: /sesearch
+    label: Research
+  -
+    href: /4student
+    label: 4Student
+  -
+    href: /works
+    label: Works
+  -
+    href: /members
+    label: Members
+  -
+    href: /downloads
+    label: Downloads
+  -
+    href: /contact
+    label: Contact
+#  -
+#    href: https://github.com/findById
+#    label: GitHub
+#    target: _blank
