@@ -181,19 +181,14 @@ nav {
     display: flex;
 }
 
-nav > a {
-    background: black;
-    padding: 5px 15px;
-    border-radius: 5px;
-    margin: 0 3px;
-    color: white !important;
-}
-
-nav > a.selected {
-    padding: 5px 15px;
-    border-radius: 5px;
+nav a {
+    padding: 5px 10px 0 0;
     margin: 0 3px;
     color: black !important;
+}
+
+nav span:not(:first-child):before {
+    content: '/';
 }
 
 div {
