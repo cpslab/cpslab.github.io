@@ -1,0 +1,24 @@
+---
+layout: base
+title: Blog - CPS Lab
+---
+
+{% for post in site.posts %}
+
+<h2>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+</h2>
+
+<h4>{{ post.date }} {{ post.author }}</h4>
+
+{% endfor %}
+
+<!--<ul>-->
+    <!--{% for post in site.posts %}-->
+
+    <!--<li>-->
+        <!--<a href="{{ post.url }}">{{ post.title }}</a>-->
+    <!--</li>-->
+
+    <!--{% endfor %}-->
+<!--</ul>-->
