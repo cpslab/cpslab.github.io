@@ -3,10 +3,10 @@
         <a href="/">{{ site.title }}</a>
         <nav class="header-nav">
             {% for nav in site.navigations %}
-            {% if nav.label %}
-            <a href="{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item"
+            <span>
+            <a href="{{ nav.href }}" class="{% if page.menu == nav.key %} selected {% endif %} site-header-nav-item"
                target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a>
-            {% endif %}
+            </span>
             {% endfor %}
         </nav>
     </div>
