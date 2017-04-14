@@ -1,60 +1,34 @@
 ---
 layout: base
 title: Members
+data:
+  -
+    name: M2
+    year: fmi16
+  -
+    name: M1
+    year: fmi17
+  -
+    name: B4
+    year: fi14
+  -
+    name: B3
+    year: fi15
+  -
+    name: OB
+    year: ob
 ---
 
 <h1>Members</h1>
+{% for grade in page.data %}
 <section>
-    <h2>M2</h2>
+    <h2>{{ grade.name }}</h2>
     <ul>
-        {% for post in site.tags.fmi16 %}
+        {% for post in site.tags[grade.year] %}
         <li>
             <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
 </section>
-
-<section>
-    <h2>M1</h2>
-    <ul>
-        {% for post in site.tags.fmi17 %}
-        <li>
-            <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<section>
-    <h2>B4</h2>
-    <ul>
-        {% for post in site.tags.fi14 %}
-        <li>
-            <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<section>
-    <h2>B3</h2>
-    <ul>
-        {% for post in site.tags.fi13 %}
-        <li>
-            <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<section>
-    <h2>OB</h2>
-    <ul>
-        {% for post in site.tags.ob %}
-        <li>
-            <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
+{% endfor %}
