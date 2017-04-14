@@ -172,7 +172,6 @@ section address {
     margin-left: 80%;
 }
 
-<<<<<<< HEAD
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -187,8 +186,8 @@ nav {
 
 nav>* {
     padding-left: 10px;
-=======
+}
+
 div {
     display: block;
->>>>>>> Update top
 }
