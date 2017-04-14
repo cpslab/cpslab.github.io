@@ -191,3 +191,10 @@ nav>* {
 div {
     display: block;
 }
+
+blockquote {
+    border-left: 3px solid lightgray;
+    margin: 14px 15px;
+    padding: 0 25px;
+    color: dimgrey;
+}
