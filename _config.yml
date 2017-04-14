@@ -35,21 +35,27 @@ exclude:
 navigations:
   -
     href: /sesearch
+    key: sesearch
     label: Research
   -
     href: /4student
+    key: 4student
     label: 4Student
   -
     href: /works
+    key: works
     label: Works
   -
     href: /members
+    key: members
     label: Members
   -
     href: /downloads
+    key: downloads
     label: Downloads
   -
     href: /contact
+    key: contact
     label: Contact
 #  -
 #    href: https://github.com/findById
