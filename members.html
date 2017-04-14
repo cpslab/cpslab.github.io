@@ -1,0 +1,48 @@
+---
+layout: base
+title: Members
+data:
+  -
+    name: M2
+    year: fmi16
+  -
+    name: M1
+    year: fmi17
+  -
+    name: B4
+    year: fi14
+  -
+    name: B3
+    year: fi15
+  -
+    name: OB
+    year: ob
+---
+
+<h1>Members</h1>
+{% for grade in page.data %}
+<section class="members">
+    <h2>{{ grade.name }}</h2>
+    <ul>
+        {% for member in site.tags[grade.year] %}
+        <li>
+            <div class="member-card">
+                <a href="{{site.baseurl}}{{ member.url }}">
+                    <img src="{{member.face_url}}" alt="{{ member.name }}" />
+                    <h3>{{ member.name }}</h3>
+                    <p class="say">{{member.say}}</p>
+                    <ul class="links">
+                        {% if member.homepage_url %}
+                        <li><a href="{{member.homepage_url}}" target="_blank">Web</a></li>
+                        {% endif %}
+                        {% if member.github_url %}
+                        <li><a href="{{member.github_url}}" target="_blank">GitHub</a></li>
+                        {% endif %}
+                    </ul>
+                </a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endfor %}

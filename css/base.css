@@ -2,9 +2,8 @@ body {
     font-size: 14px;
     line-height: 20px;
     font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
-    color:#564b47;
+    color: #564b47;
     padding: 50px;
-    background: url(/images/bg01small.jpg) repeat-y;
 }
 
 body > header h1 > a {
@@ -184,7 +183,7 @@ nav {
     display: flex;
 }
 
-nav>* {
+nav > * {
     padding-left: 10px;
 }
 
@@ -197,4 +196,48 @@ blockquote {
     margin: 14px 15px;
     padding: 0 25px;
     color: dimgrey;
+}
+
+.members li {
+    list-style-type: none;
+}
+
+.members h3 {
+    border: none;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.member-card {
+    width: 200px;
+    padding: 13px;
+    box-shadow: 0px 5px 10px #e4e4e4;
+    border-radius: 5px;
+}
+
+.member-card>a {
+    display: block;
+}
+
+.member-card img {
+    width: 100%;
+}
+
+.say {
+    margin: 0;
+}
+.say:before {
+    content: "❝ "
+}
+.say:after {
+    content: " ❞"
+}
+
+.links {
+    padding: 0px;
+    display: flex;
+}
+
+.links li {
+    padding-right: 1em
 }
