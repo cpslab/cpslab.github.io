@@ -2,9 +2,9 @@
 layout: base
 categories: member
 
-title: "高橋洸人"
-name: "高橋洸人"
-name_en: "Takahashi Hiroto"
+title: "高橋 洸人"
+name: "高橋 洸人"
+name_en: "Hiroto Takahashi"
 tags: fmi16 fi12
 face_url: https://cloud.githubusercontent.com/assets/2284908/25040685/df95d54c-2145-11e7-8c85-5a72998551a5.jpg
 
