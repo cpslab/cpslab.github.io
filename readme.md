@@ -14,3 +14,7 @@ bundle install
 jekyll serve
 
 ```
+
+Create your member page
+
+* Use `_posts/2017-04-14-member_template.md`
