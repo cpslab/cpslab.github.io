@@ -46,7 +46,7 @@ title: Top - CPS Lab
 
 # ようこそ岩井研究室へ(実空間コンピューティング研究室)のページへ
 
-## Cyber Phisical System Lab(CPS Lab)ああああああああああああああああああああああああ
+## Cyber Phisical System Lab(CPS Lab)
 
 ### CPSLab VR Tour
 
