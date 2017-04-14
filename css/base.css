@@ -202,6 +202,7 @@ blockquote {
 
 .members ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .members li {
@@ -212,6 +213,7 @@ blockquote {
     border: none;
     padding: 5px 0;
     margin: 0;
+    font-weight: 100;
 }
 
 .member-card {

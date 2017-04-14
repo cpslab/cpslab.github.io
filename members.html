@@ -18,8 +18,17 @@ data:
     name: B3
     year: fi15
   -
-    name: OB
-    year: ob
+    name: Graduated in 2016
+    year: ob04
+  -
+    name: Graduated in 2015
+    year: ob03
+  -
+    name: Graduated in 2014
+    year: ob02
+  -
+    name: Graduated in 2013
+    year: ob01
 ---
 
 <h1>Members</h1>
@@ -30,8 +39,12 @@ data:
         {% for member in site.tags[grade.year] %}
         <li>
             <div class="member-card">
+                {% if member.redirect %}
+                <a href="{{site.baseurl}}{{ member.redirect }}">
+                {% else %}
                 <a href="{{site.baseurl}}{{ member.url }}">
-                    <img src="{{member.face_url}}" alt="{{ member.name }}" />
+                {% endif %}
+                    <img src="{{member.face_url}}" alt="{{ member.name }}"/>
                     <h3>{{ member.name }}</h3>
                     {% if member.say %}
                     <p class="say">{{member.say}}</p>
@@ -51,3 +64,4 @@ data:
     </ul>
 </section>
 {% endfor %}
+
