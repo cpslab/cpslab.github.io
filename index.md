@@ -81,7 +81,7 @@ title: Top - CPS Lab
 
 # Top
 
-- 研究室配属希望者へ⇒[4Student](/4Student)
+- 研究室配属希望者へ⇒[4Student](/4student)
 - 岩井研の研究トピック一覧[Research/Topics](/Research/Topics)
 
 # 岩井研の研究内容
