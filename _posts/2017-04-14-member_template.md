@@ -6,7 +6,7 @@ title: "名前 太郎"
 name: "名前 太郎"
 name_en: "Taro Nazen"
 tags: fmi99 fi99
-face_url: https://cloud.githubusercontent.com/assets/2284908/25040685/df95d54c-2145-11e7-8c85-5a72998551a5.jpg
+face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
 
 main_skills: backend frontend mobile game
 
