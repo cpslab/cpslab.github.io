@@ -33,10 +33,10 @@ data:
                     <p class="say">{{member.say}}</p>
                     <ul class="links">
                         {% if member.homepage_url %}
-                        <li><a href="{{member.homepage_url}}">Web</a></li>
+                        <li><a href="{{member.homepage_url}}" target="_blank">Web</a></li>
                         {% endif %}
-                        {% if member.homepage_url %}
-                        <li><a href="{{member.homepage_url}}">GitHub</a></li>
+                        {% if member.github_url %}
+                        <li><a href="{{member.github_url}}" target="_blank">GitHub</a></li>
                         {% endif %}
                     </ul>
                 </a>
