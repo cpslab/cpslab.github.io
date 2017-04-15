@@ -6,16 +6,16 @@ data:
     name: Associate Professor
     year: boss
   -
-    name: M2
+    name: Master's Course Second Year | 修士課程 2 年
     year: fmi16
   -
-    name: M1
+    name: Master's Course First Year | 修士課程 1 年
     year: fmi17
   -
-    name: B4
+    name: Senior | 学部 4 年
     year: fi14
   -
-    name: B3
+    name: Junior | 学部 3 年
     year: fi15
   -
     name: Graduated in 2016
@@ -40,21 +40,30 @@ data:
         <li>
             <div class="member-card">
                 {% if member.redirect %}
-                <a href="{{site.baseurl}}{{ member.redirect }}">
+                {% assign url = member.redirect %}
                 {% else %}
-                <a href="{{site.baseurl}}{{ member.url }}">
+                {% assign url = member.url %}
                 {% endif %}
+                <a href="{{site.baseurl}}{{ url }}">
                     <img src="{{member.face_url}}" alt="{{ member.name }}"/>
+                    <h3>{{ member.name_en }}</h3>
                     <h3>{{ member.name }}</h3>
-                    {% if member.say %}
-                    <p class="say">{{member.say}}</p>
-                    {% endif %}
+                    <ul class="skills">
+                        {% assign skills = member.skills | split: " " %}
+                        {% for skill in skills %}
+                        <li>{{ skill }}</li>
+                        {% endfor %}
+                    </ul>
                     <ul class="links">
                         {% if member.homepage_url %}
-                        <li><a href="{{member.homepage_url}}" target="_blank">Web</a></li>
+                        <li><a href="{{member.homepage_url}}" target="_blank">
+                            <i class='fa fa-home'></i>
+                        </a></li>
                         {% endif %}
                         {% if member.github_url %}
-                        <li><a href="{{member.github_url}}" target="_blank">GitHub</a></li>
+                        <li><a href="{{member.github_url}}" target="_blank">
+                            <i class='fa fa-github'></i>
+                        </a></li>
                         {% endif %}
                     </ul>
                 </a>
@@ -65,3 +74,63 @@ data:
 </section>
 {% endfor %}
 
+<script>
+	var skillsCollection = document.querySelectorAll('.skills li');
+	// Collection to Array
+	var skills = Array.prototype.slice.call(skillsCollection, 0);
+	timerID = setInterval(drawBridge, 1000, skills);
+
+	function drawBridge(skills) {
+		var pair = choisePair(skills);
+		var skill1 = pair[0];
+		var skill2 = pair[1];
+		var skill1Rect = skill1.getBoundingClientRect();
+		var skill2Rect = skill2.getBoundingClientRect();
+		var x = skill2Rect.left - skill1Rect.left;
+		var y = skill2Rect.top - skill1Rect.top;
+		console.log('target', x, y);
+		var d1 = 400;
+		var d2 = 800;
+		anime({
+			targets: skill1,
+			translateX: [
+				{ value: x, duration: d1 },
+				{ value: 0, duration: d2 }
+			],
+			translateY: [
+				{ value: y, duration: d1 },
+				{ value: 0, duration: d2}
+			],
+			rotate: '3turn',
+			backgroundColor: '#FFF',
+			duration: d1 + d2,
+			loop: false
+		});
+		anime({
+			targets: skill2,
+					translateX: [
+											{ value: -x, duration: d1 },
+											{ value: 0, duration: d2 }
+					],
+					translateY: [
+											{ value: -y, duration: d1 },
+											{ value: 0, duration: d2}
+					],
+			rotate: '3turn',
+			backgroundColor: '#FFF',
+			duration: d1 + d2,
+			loop: false
+		});
+	}
+
+	function choisePair(elements) {
+		var hits = [];
+		while (hits.length < 2) {
+			var li = _.sample(elements);
+			var tagName = li.innerHTML;
+			hits = elements.filter(function (e) { return e.innerHTML == tagName });
+		}
+		return _.sampleSize(hits, 2);
+	}
+
+</script>

@@ -8,7 +8,7 @@ name_en: "Hiroto Takahashi"
 tags: fmi16 fi12
 face_url: https://cloud.githubusercontent.com/assets/2284908/25040685/df95d54c-2145-11e7-8c85-5a72998551a5.jpg
 
-main_skills: web mobile
+skills: web backend server android ios game design RaspberryPi
 
 say: Getting Real
 

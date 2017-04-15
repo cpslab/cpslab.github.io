@@ -10,6 +10,8 @@ face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fsue-kichi
 
+skills: android gadget emacs FoodFight
+
 ---
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fsue-kichi

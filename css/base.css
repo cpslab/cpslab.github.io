@@ -211,13 +211,16 @@ blockquote {
 
 .members h3 {
     border: none;
-    padding: 5px 0;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 2px 0;
     margin: 0;
     font-weight: 100;
 }
 
 .member-card {
     width: 200px;
+    height: 318px;
     padding: 13px;
     margin: 5px;
     box-shadow: 0px 5px 10px #e4e4e4;
@@ -237,6 +240,17 @@ blockquote {
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+
+.member-card .skills {
+    padding: 0;
+    margin: 0 -3px;
+    color: #aaa;
+    line-height: 15px;
+}
+
+.skills li {
+    padding: 0 3px;
 }
 
 .say {

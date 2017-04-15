@@ -8,6 +8,8 @@ name_en: "Naoya Kinoshita"
 tags: ob03
 face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
 
+skills: electronic
+
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkinoshita
 
 ---

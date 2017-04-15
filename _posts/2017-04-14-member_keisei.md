@@ -8,6 +8,8 @@ name_en: "Keisei Saito"
 tags: ob03
 face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=keisei.png
 
+skills: music ios web
+
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkeisei
 
 ---

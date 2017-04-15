@@ -8,7 +8,7 @@ name_en: "Taro Nazen"
 tags: fmi99 fi99
 face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
 
-main_skills: backend frontend mobile game
+skills: backend frontend mobile game
 
 say: There is no spoon
 
