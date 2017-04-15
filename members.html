@@ -6,16 +6,16 @@ data:
     name: Associate Professor
     year: boss
   -
-    name: M2
+    name: Master's Course Second Year | 修士課程 2 年
     year: fmi16
   -
-    name: M1
+    name: Master's Course First Year | 修士課程 1 年
     year: fmi17
   -
-    name: B4
+    name: Senior | 学部 4 年
     year: fi14
   -
-    name: B3
+    name: Junior | 学部 3 年
     year: fi15
   -
     name: Graduated in 2016
@@ -40,21 +40,29 @@ data:
         <li>
             <div class="member-card">
                 {% if member.redirect %}
-                <a href="{{site.baseurl}}{{ member.redirect }}">
+                {% assign url = member.redirect %}
                 {% else %}
-                <a href="{{site.baseurl}}{{ member.url }}">
+                {% assign url = member.url %}
                 {% endif %}
+                <a href="{{site.baseurl}}{{ url }}">
                     <img src="{{member.face_url}}" alt="{{ member.name }}"/>
+                    <h3>{{ member.name_en }}</h3>
                     <h3>{{ member.name }}</h3>
-                    {% if member.say %}
-                    <p class="say">{{member.say}}</p>
-                    {% endif %}
+                    <ul class="skills">
+                        {% for skill in member.skills %}
+                        <li>{{ skill }}</li>
+                        {% endfor %}
+                    </ul>
                     <ul class="links">
                         {% if member.homepage_url %}
-                        <li><a href="{{member.homepage_url}}" target="_blank">Web</a></li>
+                        <li><a href="{{member.homepage_url}}" target="_blank">
+                            <i class='fa fa-home'></i>
+                        </a></li>
                         {% endif %}
                         {% if member.github_url %}
-                        <li><a href="{{member.github_url}}" target="_blank">GitHub</a></li>
+                        <li><a href="{{member.github_url}}" target="_blank">
+                            <i class='fa fa-github'></i>
+                        </a></li>
                         {% endif %}
                     </ul>
                 </a>

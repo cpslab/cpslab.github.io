@@ -4,7 +4,7 @@ categories: member
 
 title: "津野 喬文"
 name: "津野 喬文"
-name_en: "Tsuno"
+name_en: "Tsunosan"
 tags: ob04
 face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
 
