@@ -78,7 +78,7 @@ data:
 	var skillsCollection = document.querySelectorAll('.skills li');
 	// Collection to Array
 	var skills = Array.prototype.slice.call(skillsCollection, 0);
-	drawBridge(skills);
+	timerID = setInterval(drawBridge, 2000, skills);
 
 	function drawBridge(skills) {
 		var pair = choisePair(skills);
@@ -92,28 +92,32 @@ data:
 		anime({
 			targets: skill1,
 			translateX: [
-				{ value: x, duration: 1200 }
+				{ value: x, duration: 1500 },
+				{ value: 0, duration: 3000 }
 			],
 			translateY: [
-				{ value: y, duration: 1200 }
+				{ value: y, duration: 1500 },
+				{ value: 0, duration: 3000 }
 			],
-			// rotate: '1turn',
+			rotate: '1turn',
 			backgroundColor: '#FFF',
-			duration: 1200,
-			loop: true
+			duration: 3200,
+			loop: false
 		});
 		anime({
 			targets: skill2,
-			translateX: [
-				{ value: -x, duration: 1000 }
-			],
-			translateY: [
-				{ value: -y, duration: 1000 }
-			],
-			// rotate: '1turn',
+					translateX: [
+						{ value: -x, duration: 1500 },
+						{ value: 0, duration: 3000 }
+					],
+					translateY: [
+						{ value: -y, duration: 1500 },
+						{ value: 0, duration: 3000 }
+					],
+			rotate: '1turn',
 			backgroundColor: '#FFF',
-			duration: 1200,
-			loop: true
+			duration: 3200,
+			loop: false
 		});
 	}
 
