@@ -49,7 +49,8 @@ data:
                     <h3>{{ member.name_en }}</h3>
                     <h3>{{ member.name }}</h3>
                     <ul class="skills">
-                        {% for skill in member.skills %}
+                        {% assign skills = member.skills | split: " " %}
+                        {% for skill in skills %}
                         <li>{{ skill }}</li>
                         {% endfor %}
                     </ul>
@@ -73,3 +74,37 @@ data:
 </section>
 {% endfor %}
 
+<script>
+	var skillsCollection = document.querySelectorAll('.skills li');
+	// Collection to Array
+	var skills = Array.prototype.slice.call(skillsCollection, 0);
+	drawBridge(skills);
+
+	function drawBridge(skills) {
+		var pair = choisePair(skills);
+		var skill1 = pair[0];
+		var skill2 = pair[1];
+		set_translate(skill1, 100);
+	}
+
+	function set_translate(e, pix) {
+		e.style["-webkit-transform"] = "translate(0px, "+ pix +"px)";
+		e.style["-moz-transform"] = "translate(0px, -" + pix +"px)";
+		e.style["-ms-transform"] = "translate(0px, -" + pix + "px)";
+		e.style["-o-transform"] = "translate(0px, " + pix  + "px)";
+		e.style["transform"] = "translate(0px, -" + pix + "px)";
+	}
+
+	function choisePair(elements) {
+		var li = choise(elements);
+		var tagName = li.innerHTML;
+		var hits = elements.filter(function(e) { return e.innerHTML == tagName });
+		var pair = choise(hits);
+		return [li, pair];
+	}
+
+	function choise(arr) {
+		return arr[ Math.floor( Math.random() * arr.length ) ];
+	}
+
+</script>

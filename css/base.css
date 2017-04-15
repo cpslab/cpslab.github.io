@@ -244,8 +244,13 @@ blockquote {
 
 .member-card .skills {
     padding: 0;
+    margin: 0 -3px;
     color: #aaa;
     line-height: 15px;
+}
+
+.skills li {
+    padding: 0 3px;
 }
 
 .say {
