@@ -211,8 +211,8 @@ blockquote {
 
 .members h3 {
     border: none;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 17px;
     padding: 2px 0;
     margin: 0;
     font-weight: 100;
@@ -244,6 +244,8 @@ blockquote {
 
 .member-card .skills {
     padding: 0;
+    color: #aaa;
+    line-height: 15px;
 }
 
 .say {
