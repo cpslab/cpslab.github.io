@@ -84,27 +84,47 @@ data:
 		var pair = choisePair(skills);
 		var skill1 = pair[0];
 		var skill2 = pair[1];
-		set_translate(skill1, 100);
-	}
-
-	function set_translate(e, pix) {
-		e.style["-webkit-transform"] = "translate(0px, "+ pix +"px)";
-		e.style["-moz-transform"] = "translate(0px, -" + pix +"px)";
-		e.style["-ms-transform"] = "translate(0px, -" + pix + "px)";
-		e.style["-o-transform"] = "translate(0px, " + pix  + "px)";
-		e.style["transform"] = "translate(0px, -" + pix + "px)";
+		var skill1Rect = skill1.getBoundingClientRect();
+		var skill2Rect = skill2.getBoundingClientRect();
+		var x = skill2Rect.left - skill1Rect.left;
+		var y = skill2Rect.top - skill1Rect.top;
+		console.log('target', x, y);
+		anime({
+			targets: skill1,
+			translateX: [
+				{ value: x, duration: 1200 }
+			],
+			translateY: [
+				{ value: y, duration: 1200 }
+			],
+			// rotate: '1turn',
+			backgroundColor: '#FFF',
+			duration: 1200,
+			loop: true
+		});
+		anime({
+			targets: skill2,
+			translateX: [
+				{ value: -x, duration: 1000 }
+			],
+			translateY: [
+				{ value: -y, duration: 1000 }
+			],
+			// rotate: '1turn',
+			backgroundColor: '#FFF',
+			duration: 1200,
+			loop: true
+		});
 	}
 
 	function choisePair(elements) {
-		var li = choise(elements);
-		var tagName = li.innerHTML;
-		var hits = elements.filter(function(e) { return e.innerHTML == tagName });
-		var pair = choise(hits);
-		return [li, pair];
-	}
-
-	function choise(arr) {
-		return arr[ Math.floor( Math.random() * arr.length ) ];
+		var hits = [];
+		while (hits.length < 2) {
+			var li = _.sample(elements);
+			var tagName = li.innerHTML;
+			hits = elements.filter(function (e) { return e.innerHTML == tagName });
+		}
+		return _.sampleSize(hits, 2);
 	}
 
 </script>
