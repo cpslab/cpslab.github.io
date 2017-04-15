@@ -10,6 +10,8 @@ face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmasataka
 
+skills: web backend frontend server electronic unity game
+
 ---
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmasataka

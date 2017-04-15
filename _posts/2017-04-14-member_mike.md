@@ -8,6 +8,8 @@ name_en: "Yosuke Miwa"
 tags: ob03
 face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
 
+skills: android java
+
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmike
 
 ---

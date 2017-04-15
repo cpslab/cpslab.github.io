@@ -10,6 +10,8 @@ face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftsukada
 
+skills: android
+
 ---
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftsukada

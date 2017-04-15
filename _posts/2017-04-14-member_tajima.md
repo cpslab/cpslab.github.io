@@ -10,6 +10,8 @@ face_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=ref&page=Members&src=
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftajima
 
+skills: server network backend kakin
+
 ---
 
 redirect: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftajima
