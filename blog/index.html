@@ -1,0 +1,18 @@
+---
+layout: blog
+title: Blog - CPS Lab
+---
+
+{% for blog in site.categories.blog %}
+
+<div class="blogItem">
+    <h2>
+        <a href="{{ site.baseUrl }}{{ blog.url }}">{{ blog.title }}</a>
+    </h2>
+    <ul class="blogInfoList">
+        <li class="date">{{ blog.date | date_to_string }}</li>
+        <li class="author">by {{ blog.author }}</li>
+        <li><img class="author_icon" src="{{ blog.author_icon }}" alt="icon"></li>
+    </ul>
+</div>
+{% endfor %}

@@ -50,6 +50,9 @@ navigations:
     key: members
     label: Members
   -
+    href: /blog
+    label: Blog
+  -
     href: /downloads
     key: downloads
     label: Downloads

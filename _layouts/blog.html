@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseUrl }}/css/base.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseUrl }}/css/blog.css">
+</head>
+<body>
+{% include header.html %}
+<div class="container blogList">
+    {{ content }}
+</div>
+</body>
+</html>
