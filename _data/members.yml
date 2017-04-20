@@ -1,3 +1,30 @@
+
+# ↓ template!
+template:
+  name: "歳納 京子"
+  name_en: "Kyoko Toshino"
+  tags:
+    - fmi99
+    - fi95
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: goraku Rum-raisin
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=namu.jpg
+  github:
+  twitter:
+  facebook:
+  say: "明日できることは今日やらない"
+
+# teacher
+masaiwai:
+  name: "岩井 将行"
+  name_en: "Masayuki Iwai"
+  tags:
+    - boss
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members%2Fiwai&openfile=iwaiphoto.jpg
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2iwai
+  skills: web mobile
+
+# 12fi
 naoya:
   name: "柴原 直也"
   name_en: "Naoya Shibahara"
@@ -10,6 +37,7 @@ naoya:
   github: nshiba
   twitter: nshiba310
   facebook: naoya.shiba6310
+
 elzup:
   name: "高橋 洸人"
   name_en: "Hiroto Takahashi"
@@ -23,3 +51,327 @@ elzup:
   twitter: _elzup_
   facebook: takahashiroto
   say: Getting Real
+
+# 13fi
+adachi:
+  name: "安達 廉"
+  name_en: "Adachi Ren"
+  tags:
+    - fmi17
+    - fi13
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: sensors
+  say: Eating is worth living
+  homepage_url:
+  github_url: https://github.com/dattiren
+
+# ob04
+
+yone:
+  name: "米長 洋二"
+  name_en: "Youji Yonehara"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fyonenaga
+  skills: android gadget FoodFighter
+
+kawasumi:
+  name: "川隅 恭介"
+  name_en: "Kyosuke Kawasumi"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: RaspberryPi electronic FoodFight
+
+misaki:
+  name: "中下 岬"
+  name_en: "Misaki Nakashita"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmisaki
+  skills: electronic gadget FoodFight
+
+sue:
+  name: "末吉 佑一"
+  name_en: "Yuichi Sueyoshi"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=sue-kichi.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fsue-kichi
+  skills: android gadget emacs FoodFight
+
+taki:
+  name: "滝 雅史"
+  name_en: "Masahumi Taki"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: RaspberryPi electronic FoodFight
+
+tsuno:
+  name: "津野 喬文"
+  name_en: "Tsunosan"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftsuno
+  skills: android gadget FoodFighter
+
+hiwatashi:
+  name: "樋渡 和憲"
+  name_en: "Kazunori Hiwatashi"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fhiwatashi
+  skills: image video
+
+iwamoto:
+  name: "岩本 祐磨"
+  name_en: "Yuma Iwamoto"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fiwamoto
+  skills: ios electronic sensor
+
+morosawa:
+  name: "諸沢 幹人"
+  name_en: "Mikihito Morosawa"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=morosawa.JPG
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmikihito
+  skills: web frontend backend php RaspberryPi
+
+shimada:
+  name: "嶋田 憲幸"
+  name_en: "Shimada"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fshimada
+  skills: bigdata java
+
+mt:
+  name: "横山 裕"
+  name_en: "Yu Yokoyama"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fyokoyama
+  skills: frontend music
+
+u1:
+  name: "齋藤 悠一"
+  name_en: "Yuichi Saito"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fyuichi
+  skills: server network go
+
+tsukada:
+  name: "塚田 章太"
+  name_en: "Syota Tsukada"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftsukada
+  skills: android
+
+# ob03
+
+shige:
+  name: "重田 航平"
+  name_en: "Kohei Shigeta"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=shige.JPG
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fshige
+
+tjm:
+  name: "田島 誠也"
+  name_en: "Seiya Tajima"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=ref&page=Members&src=tajima.JPG
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftajima
+  skills: server network backend kakin
+
+tetsuya:
+  name: "岩堀 哲也"
+  name_en: "Tetsuya Iwahori"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftetsuya
+  skills: android gadgets
+
+vivi:
+  name: "紺野 一樹"
+  name_en: "Kazuki Konno"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=%E3%83%93%E3%83%93%E3%83%8D%E3%83%93%E3%83%AD%E3%82%B4.png
+  skills: music
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fvividnavy_o
+
+inami:
+  name: "川崎 以七海"
+  name_en: "Naoya Kinoshita"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Finami
+  skills: android music
+
+duka:
+  name: "飯塚 直亮"
+  name_en: "Naoaki Iduka"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkinoshita
+  skills: android unity game
+
+kp:
+  name: "齊藤 圭世"
+  name_en: "Keisei Saito"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=keisei.png
+  skills: music ios web
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkeisei
+
+kinchan:
+  name: "木下 直弥"
+  name_en: "Naoya Kinoshita"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: electronic
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkinoshita
+
+shinji:
+  name: "小池 真司"
+  name_en: "Shinji Koike"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: web server unity game
+
+kondo:
+  name: "近藤 亮馬"
+  name_en: "Ryoma Kondo"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkondo
+  skills: algorithms DataBase sensor
+
+masataka:
+  name: "篠原 雅貴"
+  name_en: "Masataka Shinohara"
+  tags:
+    - ob04
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmasataka
+  skills: web backend frontend server electronic unity game
+
+mike:
+  name: "三輪 洋介"
+  name_en: "Yosuke Miwa"
+  tags:
+    - ob03
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: android java
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmike
+
+
+# ob02
+
+sugio:
+  name: "杉尾 天瞭"
+  name_en: "Takaaki Sugio"
+  tags:
+    - ob02
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftakaaki
+
+yoshizawa:
+  name: "吉澤 和宏"
+  name_en: "Kazuhiro Yoshizawa"
+  tags:
+    - ob02
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkazuhiro
+
+kazuki:
+  name: "高橋 和輝"
+  name_en: "Kazuki Takahashi"
+  tags:
+    - ob02
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkazuki
+
+kengo:
+  name: "高橋 健吾"
+  name_en: "Kengo Takahashi"
+  tags:
+    - ob02
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkengo
+
+shintani:
+  name: "新谷 渉"
+  name_en: "Wataru Shintani"
+  tags:
+    - ob02
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fshintani
+
+
+# ob01
+
+matsumoto:
+  name: "松本 佳明"
+  name_en: "Yoshiaki Matsumoto"
+  tags:
+    - ob01
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=matsu.JPG
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmatsu
+
+taka:
+  name: "中田 貴大"
+  name_en: "Takahisa Nakata"
+  tags:
+    - ob01
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=taka.JPG
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Ftaka
+
+shota:
+  name: "斉藤 松汰"
+  name_en: "Shota Saito"
+  tags:
+    - ob01
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=ref&page=Members&src=shota.JPG
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fshota
+
+ryo:
+  name: "中束 渉"
+  name_en: "Ryo Nakatsuka"
+  tags:
+    - ob01
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=tuka.JPG
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fnakatsuka
+
+namu:
+  name: "中村 裕貴"
+  name_en: "Yuki Nakamura"
+  tags:
+    - ob01
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=namu.jpg
+  homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fnamu
