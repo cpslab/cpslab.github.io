@@ -35,7 +35,7 @@ title: Members
                     {% endif %}
                     {% if member.twitter %}
                     <li><a href="https://twitter.com/{{member.twitter}}" target="_blank">
-                        <i class='fa fa-github'></i>
+                        <i class='fa fa-twitter'></i>
                     </a></li>
                     {% endif %}
                 </ul>
@@ -68,36 +68,35 @@ title: Members
 		var x = skill2Rect.left - skill1Rect.left;
 		var y = skill2Rect.top - skill1Rect.top;
 		console.log('target', x, y);
-		var d1 = 400;
-		var d2 = 800;
+		var half = 100;
 		anime({
 			targets: skill1,
 			translateX: [
-				{ value: x, duration: d1 },
-				{ value: 0, duration: d2 }
+				{ value: x / 2, delay: half },
+				{ value: 0, delay: half }
 			],
 			translateY: [
-				{ value: y, duration: d1 },
-				{ value: 0, duration: d2 }
+				{ value: y / 2, delay: half },
+				{ value: 0, delay: half }
 			],
-			rotate: '3turn',
 			backgroundColor: '#FFF',
-			duration: d1 + d2,
+			easing: 'linear',
+			duration: half,
 			loop: false
 		});
 		anime({
 			targets: skill2,
 			translateX: [
-				{ value: -x, duration: d1 },
-				{ value: 0, duration: d2 }
+				{ value: -x / 2, delay: half },
+				{ value: 0, delay: half }
 			],
 			translateY: [
-				{ value: -y, duration: d1 },
-				{ value: 0, duration: d2 }
+				{ value: -y / 2, delay: half },
+				{ value: 0, delay: half }
 			],
-			rotate: '3turn',
 			backgroundColor: '#FFF',
-			duration: d1 + d2,
+			easing: 'linear',
+			duration: half,
 			loop: false
 		});
 	}
