@@ -1,9 +1,11 @@
 naoya:
   name: "柴原 直也"
   name_en: "Naoya Shibahara"
-  tags: fmi16 fi12
+  tags:
+    - fmi16
+    - fi12
   icon: https://avatars1.githubusercontent.com/u/7831408
-  skils: Android
+  skills: Android
   homepage_url:
   github: nshiba
   twitter: nshiba310
@@ -11,10 +13,13 @@ naoya:
 elzup:
   name: "高橋 洸人"
   name_en: "Hiroto Takahashi"
-  tags: fmi16 fi12
+  tags:
+    - fmi16
+    - fi12
   icon: https://cloud.githubusercontent.com/assets/2284908/25040685/df95d54c-2145-11e7-8c85-5a72998551a5.jpg
-  skils: web backend server android ios game design RaspberryPi
+  skills: web backend server android ios game design RaspberryPi Android
   homepage_url: https://elzup.com
   github: elzup
-  twitter:
-  facebook:
+  twitter: _elzup_
+  facebook: takahashiroto
+  say: Getting Real
