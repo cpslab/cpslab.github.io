@@ -273,3 +273,7 @@ blockquote {
 .links li {
     padding-right: 1em
 }
+
+.links li i {
+    font-size: 20px;
+}

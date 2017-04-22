@@ -8,13 +8,22 @@ CPS Lab homepage
 
 # Contributes
 
+## 環境構築
+
 
 ```
+gem install bundler
 bundle install
 jekyll serve
-
 ```
 
-Create your member page
+Open [http://localhost:4000](http://localhost:4000)
 
-* Use `_posts/2017-04-14-member_template.md`
+## メンバー編集
+
+Edit `./_data/members.yml`
+
+
+## 記事作成
+
+TODO:

@@ -55,7 +55,7 @@ title: Members
 	});
 
 	if (skill_names.length !== _.uniq(skill_names).length) {
-		console.log('skill graph start');
+//		console.log('skill graph start');
 		timerID = setInterval(drawBridge, 1000, skills);
 	}
 
@@ -67,7 +67,7 @@ title: Members
 		var skill2Rect = skill2.getBoundingClientRect();
 		var x = skill2Rect.left - skill1Rect.left;
 		var y = skill2Rect.top - skill1Rect.top;
-		console.log('target', x, y);
+//		console.log('target', x, y);
 		var half = 100;
 		anime({
 			targets: skill1,

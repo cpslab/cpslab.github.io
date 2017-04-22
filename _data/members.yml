@@ -45,12 +45,12 @@ elzup:
     - fmi16
     - fi12
   icon: https://cloud.githubusercontent.com/assets/2284908/25040685/df95d54c-2145-11e7-8c85-5a72998551a5.jpg
-  skills: web backend server android ios game design RaspberryPi Android
+  skills: web backend mobile GameDev RaspberryPi
   homepage_url: https://elzup.com
   github: elzup
   twitter: _elzup_
   facebook: takahashiroto
-  say: Getting Real
+  say: Do it!
 
 # 13fi
 adachi:
@@ -235,7 +235,7 @@ duka:
     - ob03
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fkinoshita
-  skills: android unity game
+  skills: android unity GameDev
 
 kp:
   name: "齊藤 圭世"
@@ -261,7 +261,7 @@ shinji:
   tags:
     - ob04
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: web server unity game
+  skills: web server unity GameDev
 
 kondo:
   name: "近藤 亮馬"
@@ -279,7 +279,7 @@ masataka:
     - ob04
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmasataka
-  skills: web backend frontend server electronic unity game
+  skills: web backend frontend server electronic unity GameDev
 
 mike:
   name: "三輪 洋介"
