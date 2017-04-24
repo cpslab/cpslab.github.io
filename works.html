@@ -1,0 +1,116 @@
+---
+layout: base
+title: Works
+---
+
+<h1>Works</h1>
+
+{% for grade in site.data.members_page.groups %}
+<section class="members">
+    <h2>{{ grade.name }}</h2>
+    <ul>
+        {% assign members = site.data.members | where: "tags", grade.year %}
+        {% for member in members %}
+        <li>
+            <div class="member-card">
+                <img src="{{member.icon}}" alt="{{ member.name }}" />
+                <h3>{{ member.name_en }}</h3>
+                <h3>{{ member.name }}</h3>
+                <ul class="skills">
+                    {% assign skills = member.skills | split: " " %}
+                    {% for skill in skills %}
+                    <li>{{ skill }}</li>
+                    {% endfor %}
+                </ul>
+                <ul class="links">
+                    {% if member.homepage_url %}
+                    <li><a href="{{member.homepage_url}}" target="_blank">
+                        <i class='fa fa-home'></i>
+                    </a></li>
+                    {% endif %}
+                    {% if member.github %}
+                    <li><a href="https://github.com/{{member.github}}" target="_blank">
+                        <i class='fa fa-github'></i>
+                    </a></li>
+                    {% endif %}
+                    {% if member.twitter %}
+                    <li><a href="https://twitter.com/{{member.twitter}}" target="_blank">
+                        <i class='fa fa-twitter'></i>
+                    </a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endfor %}
+
+<script>
+	var skillsCollection = document.querySelectorAll('.skills li');
+	// Collection to Array
+	var skills = Array.prototype.slice.call(skillsCollection, 0);
+	const skill_names = _.map(skills, function (e) {
+		return e.innerHTML;
+	});
+
+	if (skill_names.length !== _.uniq(skill_names).length) {
+//		console.log('skill graph start');
+		timerID = setInterval(drawBridge, 1000, skills);
+	}
+
+	function drawBridge(skills) {
+		var pair = choisePair(skills);
+		var skill1 = pair[0];
+		var skill2 = pair[1];
+		var skill1Rect = skill1.getBoundingClientRect();
+		var skill2Rect = skill2.getBoundingClientRect();
+		var x = skill2Rect.left - skill1Rect.left;
+		var y = skill2Rect.top - skill1Rect.top;
+//		console.log('target', x, y);
+		var half = 100;
+		anime({
+			targets: skill1,
+			translateX: [
+				{ value: x / 2, delay: half },
+				{ value: 0, delay: half }
+			],
+			translateY: [
+				{ value: y / 2, delay: half },
+				{ value: 0, delay: half }
+			],
+			backgroundColor: '#FFF',
+			easing: 'linear',
+			duration: half,
+			loop: false
+		});
+		anime({
+			targets: skill2,
+			translateX: [
+				{ value: -x / 2, delay: half },
+				{ value: 0, delay: half }
+			],
+			translateY: [
+				{ value: -y / 2, delay: half },
+				{ value: 0, delay: half }
+			],
+			backgroundColor: '#FFF',
+			easing: 'linear',
+			duration: half,
+			loop: false
+		});
+	}
+
+	function choisePair(elements) {
+		var hits = [];
+		while (hits.length < 2) {
+			var li = _.sample(elements);
+			var tagName = li.innerHTML;
+			hits = elements.filter(function (e) {
+				return e.innerHTML == tagName
+			});
+		}
+		return _.sampleSize(hits, 2);
+	}
+
+</script>

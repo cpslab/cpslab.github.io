@@ -1,9 +1,9 @@
 ---
 layout: base
 # ↓ 外す
-# categories: blog
+categories: work
 
-title: テンプレートテンプレートテンプレート
+title: コーヒー maimai
 author: elzup
 date: 2014-04-14 21:09
 ---

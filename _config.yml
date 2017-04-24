@@ -33,10 +33,10 @@ exclude:
 
 # navigation
 navigations:
-  -
-    href: /sesearch
-    key: sesearch
-    label: Research
+#  -
+#    href: /research
+#    key: research
+#    label: Research
   -
     href: /4student
     key: 4student
