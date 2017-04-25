@@ -76,6 +76,16 @@ atsuo:
   say: I am God
 #  homepage_url: https://atsuo1203.github.io/
   github: atsuo1203
+  
+hayashi:
+  name: "林 晃輔"
+  name_en: "Hayashi Kosuke"
+  tags:
+    - fi14
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say: 
+  github: hayash1
 
 # ob04
 
