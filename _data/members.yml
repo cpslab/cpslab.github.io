@@ -87,6 +87,17 @@ hayashi:
   say: 
   github: hayash1
 
+kazuya:
+  name: "橋本 和也"
+  name_en: "Hashimoto Kazuya"
+  tags:
+    - fi14
+  icon: https://scontent.xx.fbcdn.net/v/t1.0-1/p320x320/14517536_1786932008246124_4238875170326776108_n.jpg?oh=dd3400e9b92218109834d11211d8a271&oe=59935021 
+  skills: Python Ruby HTML CSS JavaScript
+  say: Hi!I'm Hassi!
+  homepage_url: https://kazu-megane.github.io/
+  github: kazu-megane
+
 # ob04
 
 yone:
