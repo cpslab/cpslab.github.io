@@ -8,6 +8,15 @@ CPS Lab homepage
 
 # Contributes
 
+## ruby環境構築
+
+
+```
+brew update
+brew upgrade ruby-build
+rbenv install 2.4.1
+```
+
 ## 環境構築
 
 
