@@ -63,7 +63,19 @@ adachi:
   skills: sensors
   say: Eating is worth living
   homepage_url:
-  github_url: https://github.com/dattiren
+  github: dattiren
+
+# 14fi
+atsuo:
+  name: "米原 宏郎"
+  name_en: "Yonehara Atsuo"
+  tags:
+    - fi14
+  icon: https://scontent.xx.fbcdn.net/v/t1.0-9/14632975_1102333656519555_6361426073244063646_n.jpg?oh=eef90ad8e2c4f5064eebaf5748366352&oe=59881DDB
+  skills: ios rails
+  say: I am God
+#  homepage_url: https://atsuo1203.github.io/
+  github: atsuo1203
 
 # ob04
 
