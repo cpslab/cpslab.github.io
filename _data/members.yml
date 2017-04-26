@@ -52,6 +52,16 @@ elzup:
   facebook: takahashiroto
   say: Do it!
 
+hyuga:
+  name: "日向 慧"
+  name_en: "hyuga satoshi"
+  tags:
+    - fmi16
+    - fi12
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: swift rails
+  github: ninten320
+
 # 13fi
 adachi:
   name: "安達 廉"
