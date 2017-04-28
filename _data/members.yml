@@ -61,6 +61,18 @@ hyuga:
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: swift rails
   github: ninten320
+  
+yokota:
+  name: "横田 知樹"
+  name_en: "Yokota Tomoki"
+  tags:
+    - fmi16
+    - fi12
+  icon: https://cloud.githubusercontent.com/assets/18566604/25516096/6fc27318-2c23-11e7-8990-6d9e445a4b20.png
+  skills: Arduino RaspberryPi etc
+  homepage_url:
+  github: cpsyokota
+  facebook: tomoki0909
 
 # 13fi
 adachi:
