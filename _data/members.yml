@@ -88,15 +88,27 @@ atsuo:
   github: atsuo1203
   twitter: tadokorohitoshi
   facebook: "米原 宏郎"
-  
+
+# 14fi
+makky:
+  name: "牧野 駿二"
+  name_en: "Shunji Makino"
+  tags:
+    - fi14
+  icon: https://scontent.xx.fbcdn.net/v/t1.0-9/15356723_1840257899589041_5523021214321091531_n.jpg?oh=c4337e827ba2c462ab6a6b695f82987e&oe=599136AD
+  skills: Python flask Django Java Vim Web Backend html/css raspberryPI ruby RoR
+  github: tonkatu05
+  twitter: makky_tw
+  facebook: "牧野 駿二"
+
 hayashi:
   name: "林 晃輔"
   name_en: "Hayashi Kosuke"
   tags:
     - fi14
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: 
-  say: 
+  skills:
+  say:
   github: hayash1
 
 kazuya:
@@ -104,7 +116,7 @@ kazuya:
   name_en: "Hashimoto Kazuya"
   tags:
     - fi14
-  icon: https://scontent.xx.fbcdn.net/v/t1.0-1/p320x320/14517536_1786932008246124_4238875170326776108_n.jpg?oh=dd3400e9b92218109834d11211d8a271&oe=59935021 
+  icon: https://scontent.xx.fbcdn.net/v/t1.0-1/p320x320/14517536_1786932008246124_4238875170326776108_n.jpg?oh=dd3400e9b92218109834d11211d8a271&oe=59935021
   skills: Python Ruby HTML CSS JavaScript
   say: Hi!I'm Hassi!
   homepage_url: https://kazu-megane.github.io/
