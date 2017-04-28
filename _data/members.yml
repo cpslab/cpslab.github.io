@@ -25,6 +25,18 @@ masaiwai:
   skills: web mobile
 
 # 12fi
+naoki:
+  name: "野中 直樹"
+  name_en: "Naoki Nonaka"
+  tags:
+    - fmi16
+    - fi12
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=naoki-portrait.png
+  skills: Arudino RaspberryPi
+  homepage_url: /member/naoki
+  github: umebosh
+  twitter:
+  facebook:
 naoya:
   name: "柴原 直也"
   name_en: "Naoya Shibahara"
