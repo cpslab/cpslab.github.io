@@ -99,6 +99,18 @@ adachi:
   homepage_url:
   github: dattiren
 
+akameco:
+  name: "神山 崇"
+  name_en: "Kamiyama Takashi"
+  tags:
+    - fmi17
+    - fi13
+  icon: https://avatars1.githubusercontent.com/u/4002137?v=3&s=460
+  skills: web
+  say: 
+  homepage_url: https://github.com/akameco
+  github: akameco
+
 # 14fi
 atsuo:
   name: "米原 宏郎"
