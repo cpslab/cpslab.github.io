@@ -73,7 +73,7 @@ hyuga:
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: swift rails
   github: ninten320
-  
+
 yokota:
   name: "横田 知樹"
   name_en: "Yokota Tomoki"
@@ -145,6 +145,16 @@ kazuya:
   say: Hi!I'm Hassi!
   homepage_url: https://kazu-megane.github.io/
   github: kazu-megane
+
+riku:
+  name: "藤島 陸"
+  name_en: "Riku Fujishima"
+  tags:
+    - fi14
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  say:
+  github: fujishimu
 
 # ob04
 
