@@ -167,6 +167,16 @@ riku:
   skills:
   say:
   github: fujishimu
+  
+  yota:
+  name: "鈴木 陽太"
+  name_en: "Yota Suzuki"
+  tags:
+    - fi14
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  say:
+  github: sariseR
 
 # ob04
 
