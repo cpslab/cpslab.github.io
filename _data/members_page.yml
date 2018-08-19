@@ -4,16 +4,20 @@ groups:
     year: boss
   -
     name: Master's Course Second Year | 修士課程 2 年
-    year: fmi16
-  -
-    name: Master's Course First Year | 修士課程 1 年
     year: fmi17
   -
-    name: Senior | 学部 4 年
-    year: fi14
+    name: Master's Course First Year | 修士課程 1 年
+    year: fmi18
   -
-    name: Junior | 学部 3 年
+    name: Senior | 学部 4 年
     year: fi15
+#  -
+#    name: Junior | 学部 3 年
+#    year: fi16
+  -
+    name: Graduated in 2017
+    year: ob05
+
   -
     name: Graduated in 2016
     year: ob04
