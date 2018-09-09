@@ -193,10 +193,12 @@ hamamura:
   name_en: "Hamamura Jun"
   tags:
     - fi15
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: 
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&pcmd=open&file=hamajun.jpeg&refer=Members
+  skills: web Rails React php English
   say:
-  github:
+  homepage: https://hmmrjn.github.io/
+  github: hmmrjn
+  twitter: hmmrjn
 
 fuji:
   name: "藤井 貴之"
