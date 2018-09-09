@@ -196,7 +196,7 @@ hamamura:
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&pcmd=open&file=hamajun.jpeg&refer=Members
   skills: web Rails React php English
   say:
-  homepage: https://hmmrjn.github.io/
+  homepage_url: https://hmmrjn.github.io/
   github: hmmrjn
   twitter: hmmrjn
 
