@@ -20,7 +20,7 @@ TODO
     - 2017年度
         - [https://goo.gl/Q43KNJ](https://goo.gl/Q43KNJ)
     - 2018年度
-        - [https://drive.google.com/open?id=1GVE8y4F_ZvNxBmXTz3st-iSSJQjHjjKa(https://drive.google.com/open?id=1GVE8y4F_ZvNxBmXTz3st-iSSJQjHjjKa)
+        - [https://drive.google.com/open?id=1GVE8y4F_ZvNxBmXTz3st-iSSJQjHjjKa](https://drive.google.com/open?id=1GVE8y4F_ZvNxBmXTz3st-iSSJQjHjjKa)
 
 # 研究室紹介ページ (by hiro)
 
