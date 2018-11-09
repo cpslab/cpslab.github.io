@@ -16,7 +16,9 @@ title: Members
                 <img src="{{member.icon}}" alt="{{ member.name }}" />
                 <h3>{{ member.name_en }}</h3>
                 <h3>{{ member.name }}</h3>
-                <h3 class="say">{{ member.say }}</h3>
+								{% if member.say %}
+                		<h3 class="say">{{ member.say }}</h3>
+								{% endif %}
                 <ul class="skills">
                     {% assign skills = member.skills | split: " " %}
                     {% for skill in skills %}
