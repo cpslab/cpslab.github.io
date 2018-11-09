@@ -195,7 +195,7 @@ hamamura:
     - fi15
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&pcmd=open&file=hamajun.jpeg&refer=Members
   skills: web Rails React php English
-  say:
+  say: "hoge"
   homepage_url: https://hmmrjn.github.io/
   github: hmmrjn
   twitter: hmmrjn
