@@ -38,6 +38,11 @@ title: Members
                         <i class='fa fa-twitter'></i>
                     </a></li>
                     {% endif %}
+                    {% if member.facebook%}
+                    <li><a href="https://facebook.com/{{member.facebook}}" target="_blank">
+                        <i class='fa fa-facebook'></i>
+                    </a></li>
+                    {% endif %}
                 </ul>
             </div>
         </li>
