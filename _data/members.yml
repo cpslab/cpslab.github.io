@@ -225,10 +225,12 @@ ito:
   name_en: "Ito Ryoichi"
   tags:
     - fi15
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: 
-  say:
-  github:
+  icon: cpslab.github.io/images/member_profiles/RoneProf.jpg
+  skills: music Arudino M5Stack UVsensing
+  say: i like techno
+  github: RoneLoreto
+  facebook: ryo1.ito
+  twitter: Rone_Loreto
 
 uchida:
   name: "内田 響太"
