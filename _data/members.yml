@@ -193,7 +193,7 @@ hamamura:
   name_en: "Hamamura Jun"
   tags:
     - fi15
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&pcmd=open&file=hamajun.jpeg&refer=Members
+  icon: cpslab.github.io/images/member_profiles/hamamura.jpeg
   skills: web Rails React php English
   say: "hoge"
   homepage_url: https://hmmrjn.github.io/
