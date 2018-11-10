@@ -76,11 +76,11 @@ makky:
   tags:
     - fi14
     - fmi18
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: Python flask Django Java Vim Web Backend html/css raspberryPI ruby RoR
-  github: tonkatu05
-  twitter: makky_tw
-  facebook: "牧野 駿二"
+  icon: cpslab.github.io/images/member_profiles/macinjoke.jpeg
+  skills: Python flask Django Javascript React Vim Web Frontend Backend raspberryPI
+  github: macinjoke
+  twitter: macinjoke
+  facebook: macinjoke
 
 hayashi:
   name: "林 晃輔"
