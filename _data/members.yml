@@ -209,7 +209,128 @@ kudo:
   github:
   twitter:
   facebook:
-  say: 
+  say:
+otuka:
+  name: "大塚 勇人"
+  name_en: "Otuka Yuto"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+kaneko:
+  name: "金子 海斗"
+  name_en: "Kaneko Kaito"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+suzuki:
+  name: "鈴木 雄大"
+  name_en: "Suzuki Yudai"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+nakazawa:
+  name: "中沢 将"
+  name_en: "Nakazawa"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+hamamura:
+  name: "浜村 純"
+  name_en: "Hamamura Jun"
+  tags:
+    - ob06
+  icon: cpslab.github.io/images/member_profiles/hamamura.jpeg
+  skills: web Rails React php English
+  say: "hoge"
+  homepage_url: https://hmmrjn.github.io/
+  github: hmmrjn
+  twitter: hmmrjn
+
+fuji:
+  name: "藤井 貴之"
+  name_en: "Fuji Takayuki"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+motoki:
+  name: "本木 悠介"
+  name_en: "Motoki Yusuke"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+adachi:
+  name: "安達 雄基"
+  name_en: "Adachi Yuki"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+izumi:
+  name: "和泉 恵太"
+  name_en: "Izumi Keita"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+uchida:
+  name: "内田 響太"
+  name_en: "Uchida Kyota"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+sakai:
+  name: "酒井 春煕"
+  name_en: "Sakai Haruki"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+nishihara:
+  name: "西原 素直"
+  name_en: "Nisihara"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
 
 # ob05
 naoki:
