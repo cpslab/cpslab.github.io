@@ -296,7 +296,7 @@ suzuki:
   name_en: "Suzuki Yudai"
   tags:
     - ob06
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/tako.png
   skills: 
   say:
   github:
@@ -368,7 +368,7 @@ uchida:
   name_en: "Uchida Kyota"
   tags:
     - ob06
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/uchi.jpg
   skills: 
   say:
   github:
