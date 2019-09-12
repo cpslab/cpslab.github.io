@@ -91,7 +91,7 @@ enomoto:
   tags:
     - fi15
     - fmi19
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/enomoto.jpg
   skills: 
   say:
   github:
@@ -115,7 +115,7 @@ kumeta:
   name_en: "TSUKASA KUMETA"
   tags:
     - fi16
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/kumeta.png
   skills: 
   say:
   github:
@@ -157,7 +157,7 @@ Itoyo:
   name_en: "Ito Yuki"
   tags:
     - fi16
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/itoyo.jpg
   skills: 
   say:
   github:
