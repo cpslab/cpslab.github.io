@@ -167,8 +167,7 @@ TakeToshi:
   name_en: "TakeToshi"
   tags:
     - fi16
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: 
+  icon: images/member_profiles/takeitoshiki.png
   say:
   github:
 T.K:
@@ -198,7 +197,7 @@ Masuda Shoheyhey:
   name_en: "Masuda Syouma"
   tags:
     - fi16
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/masuda.png
   skills: 
   say:
   github:
@@ -208,7 +207,7 @@ TatenoRintaro:
   name_en: "Rintarou Tateno"
   tags:
     - fi16
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/tateno.png
   skills:
   github:
   twitter:
@@ -220,7 +219,7 @@ Anzy:
   name_en: "Ryousuke Anzai"
   tags:
     - fi16
-  icon: images/member_profiles/itoyo.jpg
+  icon: images/member_profiles/anzy.png
   skills: 
   say:
   github:
