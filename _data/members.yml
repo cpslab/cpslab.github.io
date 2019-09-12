@@ -1,4 +1,3 @@
-
 # ↓ template!
 template:
   name: "歳納 京子"
@@ -13,7 +12,7 @@ template:
   twitter:
   facebook:
   say: "明日できることは今日やらない"
-
+  
 # teacher
 masaiwai:
   name: "岩井 将行"
@@ -23,8 +22,7 @@ masaiwai:
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members%2Fiwai&openfile=iwaiphoto.jpg
   homepage_url: /member/iwai
   skills: web mobile
-
-
+  
 # 18fmi
 atsuo:
   name: "米原 宏郎"
