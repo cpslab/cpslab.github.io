@@ -204,8 +204,7 @@ suzuki:
   skills: 
   say:
   github:
-
-
+  
 nakazawa:
   name: "中沢 将"
   name_en: "Nakazawa"
@@ -247,6 +246,7 @@ motoki:
   skills: 
   say:
   github:
+  
 adachi:
   name: "安達 雄基"
   name_en: "Adachi Yuki"
@@ -297,7 +297,6 @@ nishihara:
   say:
   github:
 
-
 kamimura:
   name: "神村 潤"
   name_en: "Kamimura"
@@ -320,8 +319,7 @@ kamimura:
   github: dattiren
   twitter: musicartr
   facebook: len.adachi
-
-
+  
 kudo:
   name: "工藤 尊"
   name_en: "kudou Takeru"
