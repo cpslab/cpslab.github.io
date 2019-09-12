@@ -145,7 +145,7 @@ Unoken:
   name_en: "Kyoko Toshino"
   tags:
     - fi16
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/unoken.JPG
   skills:
   github:
   twitter:
@@ -171,7 +171,71 @@ TakeToshi:
   skills: 
   say:
   github:
+T.K:
+  name: "安武 凌"
+  name_en: "Take Yasu"
+  tags:
+    - fi16
+  icon: images/member_profiles/take.yy.png
+  skills:
+  github:
+  twitter:
+  facebook:
+  say:
   
+Wayasu:
+  name: "和田 康寛"
+  name_en: "Yasuhiro Wada"
+  tags:
+    - fi16
+  icon: images/member_profiles/wada.JPG
+  skills: 
+  say:
+  github:
+  
+Masuda Shoheyhey:
+  name: "増田 翔馬"
+  name_en: "Masuda Syouma"
+  tags:
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+TatenoRintaro:
+  name: "立野 倫太郎"
+  name_en: "Rintarou Tateno"
+  tags:
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  github:
+  twitter:
+  facebook:
+  say:
+  
+Anzy:
+  name: "安齋 凌介"
+  name_en: "Ryousuke Anzai"
+  tags:
+    - fi16
+  icon: images/member_profiles/itoyo.jpg
+  skills: 
+  say:
+  github:
+  
+Nogu:
+  name: "野口　大輝"
+  name_en: "Daiki Noguchi"
+  tags:
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+
+
 # ob06
 kamimura:
   name: "神村 潤"
@@ -213,7 +277,7 @@ otuka:
   name_en: "Otuka Yuto"
   tags:
     - ob06
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/otuka.png
   skills: 
   say:
   github:
