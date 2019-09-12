@@ -74,27 +74,34 @@ TODO
 
 ## 次のいずれか一つでも条件に当てはまる学生さん, 一つも当てはらまらなくてもやる気を重視します. 大学院進学, 学部卒希望などどちらでも問題ありません. 
 
-- AWS, GCP, Hadoop, Docker, vSphere Hypervisor+ESXi等のシステム構築経験者
-- iOS, React, Node.js, Angular, Websocket, WebRTC, Python, Android, Ruby on Rails開発経験者
-- RaspberryPI3,  RaspberryPIZero,  Arduino, その他IoTデイバス開発経験者
-- OpenCV等, GStreamer, Kinectv2, パノラマ等による画像映像処理ソフトソフトウエア開発経験者
+- AWS,GCP,Firebase,Cloud IoT Core,Hadoop,Docker,Heroku,OpenStack,vSphere Hypervisor+ESXi等のサーバ環境構築経験者, サーバ構成管理ツールAnsible,Chef, Puppetの経験者
+- iOS,Electron,Node,Websocket,TypeScript,React,WebRTC, WebAPIServer,webpack,Python,GO,Angular,Android, Kotlin,Vue.js,Babel,stripe,Ruby on Rails開発経験者
+- M5Stack, ESP32,RaspberryPI3/ZeroW, Sakura-IO,Arduino等 IoTデイバス開発経験者
+- OpenCV, openFrameworks, google vision api,GStreamer, Kinectv2,パノラマ動画等による画像映像処理ソフト開発経験者
 - Chrome Extensionの開発経験者
-- FaceBookAPI, TwitterAPI, Elasticsearch Service等を利用したVisualプログラミング経験者
-- 機械学習, 確率統計処理, 大規模時空間データ処理, 大規模SQLの最適化, パーティクルフィルタ, カルマンフィルタ, 分類器, Spark, JupyterNotebookをなどを得意とする人
+- FacebookAPI,TwitterAPI,Elasticsearch等を利用したビッグデータの可視化に関する経験者
+- Pytho機械学習ライブラリ(Yolo/Tiny-yolo/Chainer/Keras,scikit-learn,Theano,Pylearn,Pyevolve,NuPIC,Pattern,Caffe)での開発経験者又は、
+機械学習,パーティクルフィルタ,カルマンフィルタ,分類器,Spark,JupyterNotebookをなどを得意とする人
+- 確率統計処理，行列理論，グラフ理論など情報数学が得意な人，大規模な時空間データ処理，大規模SQL最適化，Spark,JupyterLab,TensorFlow，matplotlibなどを用いた開発経験者
+- CUDAなどGPGPUプログラミング,rtx20xx，Jetson nano，Sipeed Maix M1 Dock, 並列プログラミング経験者
 - Adobe XDを使いこなせるひと, 最新のWEB Material Designを深く理解している人
-- 信号処理, 電子回路が得意な人, 秋月電子, 千石電商, AITENDOなどに通い詰めている人
-- Tocos, XBee, BLEなどの無線通信デバイスを熟知しているひと
-- Unity, Open Frameworks, WEB GLを用いたメディアアートの作成経験
+- 信号処理，電子回路が得意な人,energy harvestingに興味がある人,秋月,千石,AITENDO,highletgo,fusion pcbなどの利用者又は通い詰めている人，おうちHackやNeopixel制御の実績
+- MonoWireless,XBee,BLE,ESPr,Tocos,LazuriteなどのIoT無線通信デバイスを熟知しているひと
+- Unity,Unreal Engine, twinmotion,photogrammetry, Open Frameworks,WEB GL,D3.js, ARKit, Mixed Reality Apps, HoloStudio,Kizuna Ai等を用いたAR,VR,MR,メディアアートの作成経験
 - OpenCL, CUDAなどの並列GPUプログラム経験者
 - Rhinoceros, AutoDesk123D, DesignSparkの経験者, 3Dプリンタやレーザ加工機でのオリジナル作品製作者
 - vim, emacs, Git, SLACKが好きな人, 普段からlinuxのみで生活している人, MacOSをshellのみで生活している人
-- 地理情報データベースを構築出来る人, Leaflet.js, Mapbox, OpenStreetMap APIなどを触ったことがあるひと
+- 地理情報データベースを構築出来る人、GoogleMap API，Leaflet.js，Mapbox，OpenStreetMap APIなどを経験者
+- オープンデータ、CoderDojo, growth hack,に関する活動実績があるひと
+- インドア位置同定技術（SLAMやWifi-FingerPrinteing）、GNSS-RTKの経験があるひと
 - 企業でプログラムのアルバイトを1ヶ月以上したことがあるひと
-- 水位や水質, 土砂防災など河川や水防災に関する具体的な取り組みを行った事がある人 - 自身のドメインでLinuxサーバを運用している人
+- 水位や水質, 土砂防災など河川や水防災に関する具体的な取り組みを行った事がある人 
+- 自身のドメインでLinuxサーバを運用している人
 - 応用情報技術者試験以上の情報処理資格試験合格者
+- 過去のACMプログラミングコンテストで1問以上正解実績がある人、競技プログラミングでの活動実績がある人、AtCoderのランキング保有者、Kaggler、Maker Faire Tokyoに過去出展経験がある人、起業家活動・ビジコンなどを行っているひと、何かを深く突き詰めて実績の既に残している人 
 - 何かにとがったことを深く突き詰めて行っている人
 
-上記のいずれか当てはまる人の中で, 選考にあたっては本人の研究に対する意欲, プログラミング能力やサーバ構築に関する実績を最も重視します. 
+上記のいずれか当てはまる人の中で, 選考にあたっては本人の研究意欲，プログラミング能力、電子工作、サーバ構築実績、デザイン系ツールなどの選考にあたっては重視（院進学の有無は問いません。成績はプログラム系科目のみ参考にします。）
 
 # 配属を希望の方へ
 
