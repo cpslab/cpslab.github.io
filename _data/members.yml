@@ -119,13 +119,15 @@ kawahigashi:
   
 Unoken:
   name: "宇野 健一"
-  name_en: "Uno Kenichi"
+  name_en: "Kyoko Toshino"
   tags:
     - fi16
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: 
-  say:
+  skills:
   github:
+  twitter:
+  facebook:
+  say:
   
 Itoyo:
   name: "伊東 優輝"
