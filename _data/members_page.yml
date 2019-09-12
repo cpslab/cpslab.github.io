@@ -15,6 +15,10 @@ groups:
 #    name: Junior | 学部 3 年
 #    year: fi16
   -
+    name: Graduated in 2018
+    year: ob06
+    
+  -
     name: Graduated in 2017
     year: ob05
 
