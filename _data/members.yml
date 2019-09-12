@@ -132,7 +132,7 @@ kawahigashi:
   say:
   github:
   
- otobe:
+otobe:
   name: "音部 拓海"
   name_en: "Takumi Otobe"
   tags:
@@ -141,7 +141,7 @@ kawahigashi:
   skills: 
   say:
   github:
-  
+
 Unoken:
   name: "宇野 健一"
   name_en: "Kyoko Toshino"
@@ -173,7 +173,7 @@ TakeToshi:
   skills: 
   say:
   github:
-
+  
 # ob06
 kamimura:
   name: "神村 潤"
@@ -331,7 +331,7 @@ nishihara:
   skills: 
   say:
   github:
-
+  
 # ob05
 naoki:
   name: "野中 直樹"
