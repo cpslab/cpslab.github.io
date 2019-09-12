@@ -232,11 +232,12 @@ ito:
   facebook: ryo1.ito
   twitter: Rone_Loreto
 
+# ob06
 uchida:
   name: "内田 響太"
   name_en: "Uchida Kyota"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
@@ -246,17 +247,17 @@ sakai:
   name: "酒井 春煕"
   name_en: "Sakai Haruki"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
   github:
-
+  
 nishihara:
   name: "西原 素直"
   name_en: "Nisihara"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
@@ -267,7 +268,7 @@ kamimura:
   name: "神村 潤"
   name_en: "Kamimura"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
