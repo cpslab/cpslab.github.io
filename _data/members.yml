@@ -24,37 +24,8 @@ masaiwai:
   homepage_url: /member/iwai
   skills: web mobile
 
-# 13fi
-ren:
-  name: "安達 廉"
-  name_en: "Adachi Ren"
-  tags:
-    - fmi17
-    - fi13
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=adachi.png 
-  skills: network sensors Arduino RaspberryPi Python slackbot 
-  say: 腹が減っては戦は出来ぬ
-  homepage_url: /member/ren
-  github: dattiren
-  twitter: musicartr
-  facebook: len.adachi
 
-
-kudo:
-  name: "工藤 尊"
-  name_en: "kudou Takeru"
-  tags:
-    - fmi17
-    - fi13
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: 
-  homepage_url: 
-  github:
-  twitter:
-  facebook:
-  say: 
-
-# 14fi
+# 18fmi
 atsuo:
   name: "米原 宏郎"
   name_en: "Yonehara Atsuo"
@@ -69,7 +40,6 @@ atsuo:
   twitter: tadokorohitoshi
   facebook: "米原 宏郎"
 
-# 14fi
 makky:
   name: "牧野 駿二"
   name_en: "Shunji Makino"
@@ -115,44 +85,99 @@ yota:
   skills: GameDev
   say:
   github: sariseR
-
-# 15fi
-
-adachi:
-  name: "安達 雄基"
-  name_en: "Adachi Yuki"
+  
+# 16Fi & 16NC
+kumeta:
+  name: "粂田 司"
+  name_en: "TSUKASA KUMETA"
   tags:
-    - fi15
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+kawahigashi:
+  name: "川東 大輝"
+  name_en: "Daiki Kawahigashi"
+  tags:
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+ otobe:
+  name: "音部 拓海"
+  name_en: "Takumi Otobe"
+  tags:
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+Unoken:
+  name: "宇野 健一"
+  name_en: "Uno Kenichi"
+  tags:
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+Itoyo:
+  name: "伊東 優輝"
+  name_en: "Ito Yuki"
+  tags:
+    - fi16
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+  
+TakeToshi:
+  name: "武井 俊樹"
+  name_en: "TakeToshi"
+  tags:
+    - fi16
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
   github:
 
-izumi:
-  name: "和泉 恵太"
-  name_en: "Izumi Keita"
-  tags:
-    - fi15
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills: 
-  say:
-  github:
-
+# 19fmi
 enomoto:
   name: "榎本 泰矩 "
   name_en: "Enomoto "
   tags:
     - fi15
+    - fmi19
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
   github:
 
+ito:
+  name: "伊東 亮一"
+  name_en: "Ito Ryoichi"
+  tags:
+    - fi15
+    - fmi19
+  icon: cpslab.github.io/images/member_profiles/RoneProf.jpg
+  skills: music Arudino M5Stack UVsensing
+  say: i like techno
+  github: RoneLoreto
+  facebook: ryo1.ito
+  twitter: Rone_Loreto
+
+# ob06
 otuka:
   name: "大塚 勇人"
   name_en: "Otuka Yuto"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
@@ -162,7 +187,7 @@ kaneko:
   name: "金子 海斗"
   name_en: "Kaneko Kaito"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
@@ -172,17 +197,18 @@ suzuki:
   name: "鈴木 雄大"
   name_en: "Suzuki Yudai"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
   github:
 
+
 nakazawa:
   name: "中沢 将"
   name_en: "Nakazawa"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
@@ -192,7 +218,7 @@ hamamura:
   name: "浜村 純"
   name_en: "Hamamura Jun"
   tags:
-    - fi15
+    - ob06
   icon: cpslab.github.io/images/member_profiles/hamamura.jpeg
   skills: web Rails React php English
   say: "hoge"
@@ -204,7 +230,7 @@ fuji:
   name: "藤井 貴之"
   name_en: "Fuji Takayuki"
   tags:
-    - fi15
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
@@ -214,25 +240,31 @@ motoki:
   name: "本木 悠介"
   name_en: "Motoki Yusuke"
   tags:
-    - fi15
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
+adachi:
+  name: "安達 雄基"
+  name_en: "Adachi Yuki"
+  tags:
+    - ob06
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: 
   say:
   github:
 
-ito:
-  name: "伊東 亮一"
-  name_en: "Ito Ryoichi"
+izumi:
+  name: "和泉 恵太"
+  name_en: "Izumi Keita"
   tags:
-    - fi15
-  icon: cpslab.github.io/images/member_profiles/RoneProf.jpg
-  skills: music Arudino M5Stack UVsensing
-  say: i like techno
-  github: RoneLoreto
-  facebook: ryo1.ito
-  twitter: Rone_Loreto
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  say:
+  github:
 
-# ob06
 uchida:
   name: "内田 響太"
   name_en: "Uchida Kyota"
@@ -273,6 +305,33 @@ kamimura:
   skills: 
   say:
   github:
+  
+  ren:
+  name: "安達 廉"
+  name_en: "Adachi Ren"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=adachi.png 
+  skills: network sensors Arduino RaspberryPi Python slackbot 
+  say: 腹が減っては戦は出来ぬ
+  homepage_url: /member/ren
+  github: dattiren
+  twitter: musicartr
+  facebook: len.adachi
+
+
+kudo:
+  name: "工藤 尊"
+  name_en: "kudou Takeru"
+  tags:
+    - ob06
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills: 
+  homepage_url: 
+  github:
+  twitter:
+  facebook:
+  say: 
 
 # ob05
 naoki:
