@@ -37,7 +37,10 @@ TODO
 学部生も院生も在学中に学会や研究会にて筆頭著者の論文を発表します. 
 
 # 岩井研論文成果一覧
+- 一覧リスト
 [ここのリンクからご覧いただけます](https://docs.google.com/spreadsheets/d/11GgTj81zQXFUDWa517E1TUveSv3VOBMWTW-9YtFiibE/edit?usp=sharing)
+- 屋外作業員のための紅斑紫外線量6方向同時計測システム
+[ホームページに飛びます](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=191581&item_no=1)
 
 # 過去の修士の学生の研究テーマ一覧
 
