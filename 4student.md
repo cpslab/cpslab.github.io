@@ -36,8 +36,8 @@ TODO
 またモビリティを利用した実空間計測のためのハード, 通信, ミドルウエア, アプリ, クラウドシステムを中心に具体的には以下の中から選択し研究を行います．
 学部生も院生も在学中に学会や研究会にて筆頭著者の論文を発表します. 
 
-# 岩井研の先輩方の論文一覧
-[https://docs.google.com/spreadsheets/d/11GgTj81zQXFUDWa517E1TUveSv3VOBMWTW-9YtFiibE/edit?usp=sharing]
+# 岩井研論文成果一覧
+[ここのリンクからご覧いただけます](https://docs.google.com/spreadsheets/d/11GgTj81zQXFUDWa517E1TUveSv3VOBMWTW-9YtFiibE/edit?usp=sharing)
 
 # 過去の修士の学生の研究テーマ一覧
 
