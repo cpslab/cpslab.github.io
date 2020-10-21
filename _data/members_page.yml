@@ -1,36 +1,36 @@
 groups:
-  -
-    name: Associate Professor
+  - name: Associate Professor
     year: boss
-  -
-    name: Master's Course Second Year | 修士課程 2 年
-    year: fmi18
-  -
-    name: Master's Course First Year | 修士課程 1 年
+
+  - name: Master's Course Second Year | 修士課程 2 年
     year: fmi19
-  -
-    name: Senior | 学部 4 年
-    year: fi16
-#  -
-#    name: Junior | 学部 3 年
-#    year: fi17
-  -
-    name: Graduated in 2018
+
+  - name: Master's Course First Year | 修士課程 1 年
+    year: fmi20
+
+  - name: Senior | 学部 4 年
+    year: fi17
+
+  #  - name: Junior | 学部 3 年
+  #    year: fi18
+  #
+  - name: Graduated in 2019
+    year: ob07
+
+  - name: Graduated in 2018
     year: ob06
-    
-  -
-    name: Graduated in 2017
+
+  - name: Graduated in 2017
     year: ob05
 
-  -
-    name: Graduated in 2016
+  - name: Graduated in 2016
     year: ob04
-  -
-    name: Graduated in 2015
+
+  - name: Graduated in 2015
     year: ob03
-  -
-    name: Graduated in 2014
+
+  - name: Graduated in 2014
     year: ob02
-  -
-    name: Graduated in 2013
+
+  - name: Graduated in 2013
     year: ob01
