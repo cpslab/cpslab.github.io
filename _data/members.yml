@@ -127,7 +127,7 @@ ishide:
   name_en: "Motoki Ishide"
   tags:
     - fi17
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/iside.png
   skills:
   homepage_url:
   github:
@@ -140,7 +140,7 @@ ootu:
   name_en: "Daichi Ootu"
   tags:
     - fi17
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/ootu.png
   skills:
   homepage_url:
   github:
@@ -166,7 +166,7 @@ naruo:
   name_en: "Issei Naruo"
   tags:
     - fi17
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/narusei.png
   skills:
   homepage_url:
   github:
@@ -179,7 +179,7 @@ narumi:
   name_en: "Hideto Narumi"
   tags:
     - fi17
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/narumi.png
   skills:
   homepage_url:
   github:
@@ -218,7 +218,7 @@ ikeda:
   name_en: "Aruma Ikeda"
   tags:
     - fi17
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/aruma.png
   skills:
   homepage_url:
   github:
@@ -231,7 +231,7 @@ shimada:
   name_en: "Tomonori Shimada"
   tags:
     - fi17
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  icon: images/member_profiles/shimada.png
   skills:
   homepage_url:
   github:
