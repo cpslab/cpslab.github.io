@@ -16,11 +16,11 @@
 title: CPSLAB
 email: iwailab2017@cps.im.dendai.ac.jp
 description: > # this means to ignore newlines until "baseurl:"
-    TDU CPSLAB
+  TDU CPSLAB
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # vtwitter_username: jekyllrb
-github_username:  cpslab
+github_username: cpslab
 
 # Build settings
 markdown: kramdown
@@ -30,34 +30,33 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # navigation
 navigations:
-#  -
-#    href: /research
-#    key: research
-#    label: Research
-  -
-    href: /4student
+  #  -
+  #    href: /research
+  #    key: research
+  #    label: Research
+  - href: /4student
     key: 4student
     label: 4Student
-  -
-    href: /works
+  - href: /works
     key: works
     label: Works
-  -
-    href: /members
+  - href: /members
     key: members
     label: Members
-  -
-    href: /blog
+  - href: /blog
     label: Blog
-  -
-    href: /downloads
+  - href: /downloads
     key: downloads
     label: Downloads
-  -
-    href: /contact
+  - href: /contact
     key: contact
     label: Contact
 #  -
