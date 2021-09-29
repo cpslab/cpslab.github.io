@@ -23,31 +23,6 @@ masaiwai:
   homepage_url: /member/iwai
   skills: web mobile
 
-# 19fmi
-enomoto:
-  name: "榎本 泰矩 "
-  name_en: "Yasunori Enomoto"
-  tags:
-    - fi15
-    - fmi19
-  icon: images/member_profiles/enomoto.jpg
-  skills:
-  say:
-  github:
-
-ito:
-  name: "伊東 亮一"
-  name_en: "Ryoichi Ito"
-  tags:
-    - fi15
-    - fmi19
-  icon: images/member_profiles/RoneProf.jpg
-  skills: UVsensing
-  say: i like techno
-  github: RoneLoreto
-  facebook: ryo1.ito
-  twitter: Rone_Loreto
-
 # 20fmi
 Anzy:
   name: "安齋 凌介"
@@ -108,39 +83,14 @@ T.K:
   facebook:
   say: "岩井研？強いよね．序盤，中盤，終盤，隙がないと思うよ．"
 
-# 17fi & nc
-akimoto:
-  name: "秋元 勇輝"
-  name_en: "Yuki Akimoto"
-  tags:
-    - fi17
-  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
-  skills:
-  homepage_url:
-  github:
-  twitter:
-  facebook:
-  say:
-
+# 21fmi
 ishide:
   name: "石出 宗己"
   name_en: "Motoki Ishide"
   tags:
     - fi17
+    - fmi21
   icon: images/member_profiles/iside.png
-  skills:
-  homepage_url:
-  github:
-  twitter:
-  facebook:
-  say:
-
-ootu:
-  name: "大津 大知"
-  name_en: "Daichi Ootu"
-  tags:
-    - fi17
-  icon: images/member_profiles/ootu.png
   skills:
   homepage_url:
   github:
@@ -153,6 +103,7 @@ nakamura:
   name_en: "Kai Nakamura"
   tags:
     - fi17
+    - fmi21
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills:
   homepage_url:
@@ -166,6 +117,7 @@ naruo:
   name_en: "Issei Naruo"
   tags:
     - fi17
+    - fmi21
   icon: images/member_profiles/narusei.png
   skills:
   homepage_url:
@@ -179,6 +131,7 @@ narumi:
   name_en: "Hideto Narumi"
   tags:
     - fi17
+    - fmi21
   icon: images/member_profiles/narumi.png
   skills:
   homepage_url:
@@ -192,6 +145,7 @@ noda:
   name_en: "Shotaro Noda"
   tags:
     - fi17
+    - fmi21
   icon: images/member_profiles/noda.jpg
   skills:
   homepage_url:
@@ -205,6 +159,7 @@ ye:
   name_en: "Zun Ye"
   tags:
     - fi17
+    - fmi21
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills:
   homepage_url:
@@ -213,12 +168,13 @@ ye:
   facebook:
   say:
 
-ikeda:
-  name: "池田 亜留麿"
-  name_en: "Aruma Ikeda"
+shimada_t:
+  name: "島田 友憲"
+  name_en: "Tomonori Shimada"
   tags:
     - fi17
-  icon: images/member_profiles/aruma.png
+    - fmi21
+  icon: images/member_profiles/shimada.png
   skills:
   homepage_url:
   github:
@@ -226,12 +182,143 @@ ikeda:
   facebook:
   say:
 
-shimada:
-  name: "島田 友憲"
-  name_en: "Tomonori Shimada"
+# 18fi & nc
+urata:
+  name: "ウラタ 英寿"
+  name_en: "urata hidetoshi"
   tags:
-    - fi17
-  icon: images/member_profiles/shimada.png
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+satake:
+  name: "佐竹　毬那"
+  name_en: "satake marina"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+chiba:
+  name: "千葉 斗太"
+  name_en: "chiba touta"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+noshian:
+  name: "ノシアン 健一"
+  name_en: "noshian kenichi"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+hasumin:
+  name: "蓮見 幸多郎"
+  name_en: "hasumi koutarou"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+saki:
+  name: "堀部 咲歩"
+  name_en: "horibe sakiho"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+matunari:
+  name: "松成 圭悟"
+  name_en: "matunari keigo"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+murakami:
+  name: "村上 舞"
+  name_en: "murakami mai"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+yabana:
+  name: "矢花 有里絵"
+  name_en: "yabana yurie"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+tkhr:
+  name: "髙原 周平"
+  name_en: "takahara shuuhei"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+tei:
+  name: "テイ ショウトク"
+  name_en: "tei shoutoku"
+  tags:
+    - fi18
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills:
   homepage_url:
   github:
@@ -243,8 +330,85 @@ hosoyama:
   name: "細山 昇眞"
   name_en: "shoma hosoyama"
   tags:
-    - fi17
+    - fi18
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+# 19fi
+
+ishitatu:
+  name: "石川 達也"
+  name_en: "ishikawa tatuya"
+  tags:
+    - fi19
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+# ob08
+enomoto:
+  name: "榎本 泰矩 "
+  name_en: "Yasunori Enomoto"
+  tags:
+    - ob08
+  icon: images/member_profiles/enomoto.jpg
+  skills:
+  say:
+  github:
+
+ito:
+  name: "伊東 亮一"
+  name_en: "Ryoichi Ito"
+  tags:
+    - ob08
+  icon: images/member_profiles/RoneProf.jpg
+  skills: UVsensing
+  say: i like techno
+  github: RoneLoreto
+  facebook: ryo1.ito
+  twitter: Rone_Loreto
+
+akimoto:
+  name: "秋元 勇輝"
+  name_en: "Yuki Akimoto"
+  tags:
+    - ob08
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+ootu:
+  name: "大津 大知"
+  name_en: "Daichi Ootu"
+  tags:
+    - ob08
+  icon: images/member_profiles/ootu.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+ikeda:
+  name: "池田 亜留麿"
+  name_en: "Aruma Ikeda"
+  tags:
+    - ob08
+  icon: images/member_profiles/aruma.png
   skills:
   homepage_url:
   github:
@@ -256,7 +420,7 @@ nagata:
   name: "永田 祥和"
   name_en: "Yoshikazu Nagata"
   tags:
-    - fi17
+    - ob08
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills:
   homepage_url:
@@ -315,7 +479,7 @@ atsuo:
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   skills: ios rails
   say: I am God
-#  homepage_url: https://atsuo1203.github.io/
+  #  homepage_url: https://atsuo1203.github.io/
   github: atsuo1203
   twitter: tadokorohitoshi
   facebook: "米原 宏郎"
@@ -651,7 +815,7 @@ koya:
   homepage_url:
   github:
 
-koya:
+masaki:
   name: "児玉 真紀"
   name_en: "Kodama Masaki"
   tags:
@@ -887,7 +1051,6 @@ mike:
   skills: android java
   homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fmike
 
-
 # ob02
 
 sugio:
@@ -929,7 +1092,6 @@ shintani:
     - ob02
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
   homepage_url: https://www.cps.im.dendai.ac.jp/index.php?Members%2Fshintani
-
 
 # ob01
 

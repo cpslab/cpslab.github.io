@@ -3,17 +3,20 @@ groups:
     year: boss
 
   - name: Master's Course Second Year | 修士課程 2 年
-    year: fmi19
-
-  - name: Master's Course First Year | 修士課程 1 年
     year: fmi20
 
-  - name: Senior | 学部 4 年
-    year: fi17
+  - name: Master's Course First Year | 修士課程 1 年
+    year: fmi21
 
-  #  - name: Junior | 学部 3 年
-  #    year: fi18
-  #
+  - name: Senior | 学部 4 年
+    year: fi18
+
+  - name: Junior | 学部 3 年
+    year: fi19
+
+  - name: Graduated in 2020
+    year: ob08
+
   - name: Graduated in 2019
     year: ob07
 
