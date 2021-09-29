@@ -28,6 +28,14 @@ jekyll serve
 
 Open [http://localhost:4000](http://localhost:4000)
 
+##### フォルダ内に本リポジトリの環境を収めたい人
+
+```bash
+gem install bundler
+bundle install --path vendor/bundle
+bundle exec jekyll serve
+```
+
 ### メンバー編集
 
 Edit `./_data/members.yml`
