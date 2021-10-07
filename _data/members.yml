@@ -93,10 +93,10 @@ ishide:
   icon: images/member_profiles/iside.png
   skills:
   homepage_url:
-  github:
+  github: nemlyc
   twitter:
   facebook:
-  say:
+  say: ":thinking-face"
 
 nakamura:
   name: "中村 快"
