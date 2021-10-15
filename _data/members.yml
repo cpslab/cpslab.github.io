@@ -342,11 +342,24 @@ hosoyama:
 # 19fi
 
 ishitatu:
-  name: "石川 達也"
+  name: "石川 達也"Z
   name_en: "ishikawa tatuya"
   tags:
     - fi19
   icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
+erina:
+  name: "矢田 絵理奈"
+  name_en: "yata erin"
+  tags:
+    - fi19
+  icon: 
   skills:
   homepage_url:
   github:
