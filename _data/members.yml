@@ -354,6 +354,19 @@ ishitatu:
   facebook:
   say:
 
+ishitatu:
+  name: "日髙 継大"
+  name_en: "keidai hidaka"
+  tags:
+    - fi19
+  icon: images/member_profiles/keidai.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
+
 # ob08
 enomoto:
   name: "榎本 泰矩 "
