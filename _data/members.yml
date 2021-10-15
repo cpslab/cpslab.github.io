@@ -354,6 +354,19 @@ ishitatu:
   facebook:
   say:
 
+ichito:
+  name: "新田 一斗"
+  name_en: "nitta ichito"
+  tags:
+    - fi19
+  icon: images/member_profiles/ichito.png
+  skills: ["Python", "Raspberry pi", "OpnePose", "OpneCV"]
+  homepage_url: None
+  github: https://github.com/i-icc
+  twitter: None
+  facebook: None
+  say: "よろしくお願いします"
+
 # ob08
 enomoto:
   name: "榎本 泰矩 "
