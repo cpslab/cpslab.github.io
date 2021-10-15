@@ -359,7 +359,7 @@ ichito:
   name_en: "nitta ichito"
   tags:
     - fi19
-  icon: https://avatars.githubusercontent.com/u/52018660?s=80&v=4
+  icon: images/member_profiles/ichito.png
   skills: ["Python", "Raspberry pi", "OpnePose", "OpneCV"]
   homepage_url: None
   github: https://github.com/i-icc
