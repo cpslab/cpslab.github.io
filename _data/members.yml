@@ -354,6 +354,19 @@ ishitatu:
   facebook:
   say:
 
+dabu:
+  name: "岩田　悠暉"
+  name_en: "YUKI IWATA"
+  tags:
+    - fi19
+  icon: images/member_profiles/player.png
+  skills: 
+  homepage_url: https://www.dabudabu.net
+  github: https://github.com/DABURUTTI
+  twitter: None
+  facebook: None
+  say: "ケモノだいすこ"
+
 # ob08
 enomoto:
   name: "榎本 泰矩 "
