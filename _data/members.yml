@@ -340,6 +340,18 @@ hosoyama:
   say:
 
 # 19fi
+yamada:
+  name: "山田　倫太郎"
+  name_en: "rintaro yamada"
+  tags:
+    - fi19
+  icon: https://www.cps.im.dendai.ac.jp/index.php?plugin=attach&refer=Members&openfile=nowprinting.png
+  skills:
+  homepage_url:
+  github:
+  twitter:
+  facebook:
+  say:
 
 ishitatu:
   name: "石川 達也"
